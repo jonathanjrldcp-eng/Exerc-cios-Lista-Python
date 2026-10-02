@@ -1,0 +1,46 @@
+import os
+import time
+# QUESTÃO 01
+print("====== #QUESTÃO 01# ======")
+lista = ["mamao", "banana", "cereja", "morango", "maracuja"]
+print("\nLista Completa: ", lista)
+print("A 1º Fruta: ", lista[0])
+print("A Última Fruta: ", lista[-1])
+
+input("\nPrecione ENTER para continuar...")
+os.system('cls' if os.name == 'nt' else 'clear')
+
+# QUESTÃO 02
+print("====== #QUESTÃO 02# ======")
+lista_n = [4, 7, 2, 9, 11]
+print("\nLista Completa: ", lista_n)
+for indice in range(len(lista_n)):
+    print(f"Número: {lista_n[indice]} | Posição (indice): {indice}")
+input("\nPrecione ENTER para continuar...")
+os.system('cls' if os.name == 'nt' else 'clear')
+
+# QUESTÃO 03
+print("====== #QUESTÃO 03# ======")
+lista_l = ["a", "b", "c", "d", "e", "f"]
+print("\nLista Completa: ", lista_l)
+print("Os três primeiros: ", lista_l[:3])
+print("Os três Ultimos: ", lista_l[-3:])
+print("A lista sem os dois primeiros: ", lista_l[2:])
+input("\nPrecione ENTER para continuar...")
+os.system('cls' if os.name == 'nt' else 'clear')
+
+# QUESTÃO 04
+print("====== #QUESTÃO 04# ======")
+lista_nome = ["Ana", "Bruno", "Carla"]
+print("\nLista Completa: ", lista_nome)
+print("Adicionando o nome 'Duda'")
+lista_nome.append("Duda")
+time.sleep(2)
+print("\nLista Atualizada: ", lista_nome)
+print("Removendo o nome 'Bruno'")
+lista_nome.remove("Bruno")
+time.sleep(2)
+print("\nLista Atualizada: ", lista_nome)
+print(f"A quantidade (len()) de nomes na lista: ", len(lista_nome))
+input("\nPrecione ENTER para continuar...")
+os.system('cls' if os.name == 'nt' else 'clear')
